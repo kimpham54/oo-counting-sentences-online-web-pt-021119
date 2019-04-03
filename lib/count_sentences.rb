@@ -39,6 +39,6 @@ class String
     # else
     #   counter
     # end
-  end
+  # end
 
 end
