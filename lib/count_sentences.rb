@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     counter = 0
-    array = self.split('.','!','?')
+    array = self.split('.','!')
     array.count{ |x| x != "" }
 
     # if self.end_with?("!")
