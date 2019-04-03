@@ -42,5 +42,5 @@ class String
     #   counter
     # end
   # end
-
+end
 end
