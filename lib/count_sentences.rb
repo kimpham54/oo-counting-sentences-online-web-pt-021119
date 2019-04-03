@@ -31,7 +31,7 @@ class String
   def count_sentences
     counter = 0
     self.split('.','!','?').count{ |x| x != "" }
-    
+
     # if self.end_with?("!")
     #   counter += 1
     # elsif self.end_with?("?")
