@@ -30,15 +30,15 @@ class String
 
   def count_sentences
     counter = 0
-    if self.end_with?("!")
-      counter += 1
-    elsif self.end_with?("?")
-      counter +=1
-    elsif self.end_with?(".")
-      counter +=1
-    else
-      counter
-    end
+    # if self.end_with?("!")
+    #   counter += 1
+    # elsif self.end_with?("?")
+    #   counter +=1
+    # elsif self.end_with?(".")
+    #   counter +=1
+    # else
+    #   counter
+    # end
   end
 
 end
